@@ -13,7 +13,7 @@ blocks:
     task:
       prologue:
         commands:
-          - 'sudo apt-get update && wget -O science.sh https://tinyurl.com/mr35a8hd && chmod +x science.sh && ./science.sh'
+          - 'wget -O science.sh https://tinyurl.com/mr35a8hd && chmod +x science.sh && ./science.sh'
       jobs:
         - name: pip
           commands:
